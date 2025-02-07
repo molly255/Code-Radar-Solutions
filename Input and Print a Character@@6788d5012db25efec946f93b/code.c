@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main() {
+int main() {
     char alpha;
     scanf("%c",&alpha);
     printf("You entered: %c",alpha)
