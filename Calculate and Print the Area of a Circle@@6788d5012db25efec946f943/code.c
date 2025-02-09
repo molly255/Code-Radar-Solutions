@@ -2,6 +2,6 @@
 int main() {
     float rad;
     scanf("%f",&rad);
-    printf("Area: %.2f", rad*3.14);
+    printf("Area: %.2f", rad*rad*3.14);
     return 0;
 }
