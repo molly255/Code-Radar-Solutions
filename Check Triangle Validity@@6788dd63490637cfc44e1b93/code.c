@@ -2,13 +2,10 @@
 int main() {
     int a;int b;int c;
     scanf("%d %d %d",&a,&b,&c);
-    if (a+b>c){
+    if (a+b>c ||a+c>b || c+b>a){
         printf("Valid");
-    }else if (a+c>b){
-        printf("Valid");
-    }else if(c+b>a){
-        printf("Valid");
-    }else{
+    }
+    else{
         printf("Invalid");
     }
     return 0;
