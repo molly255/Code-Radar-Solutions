@@ -2,6 +2,6 @@
 int main(){
     int a;int b;
     scanf("%d %d",&a,&b);
-    a>b ? printf("Yes"): printf("No");
+    a>=b ? printf("Yes"): printf("No");
     return 0;
 }
