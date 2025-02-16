@@ -9,7 +9,7 @@ int main() {
     }else if (c=='*') {
         printf("%d",a*b);
     }else {
-        printf("%.0d",a/b);
+        printf("%d",a/b);
     }
     return 0;
 }
