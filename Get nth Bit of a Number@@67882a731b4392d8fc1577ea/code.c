@@ -12,7 +12,7 @@ int main() {
     scanf("%d", &n);
     
     // Check Nth Bit
-    printf("%d\n", n, num, getNthBit(num, n));
+    printf("%d",getNthBit(num, n));
     
     return 0;
 }
