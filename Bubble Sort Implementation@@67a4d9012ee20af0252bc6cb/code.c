@@ -18,15 +18,14 @@ void printArray(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    printf("Original array: \n");
+    int n; int arr[n];
+    scanf("%d",&n);
+    for (int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
     printArray(arr, n);
 
     bubbleSort(arr, n);
-
-    printf("Sorted array: \n");
     printArray(arr, n);
 
     return 0;
